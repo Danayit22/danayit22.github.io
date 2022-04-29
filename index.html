@@ -22,7 +22,13 @@
         <!-- Wrap the unordered list of links in a nav element -->
         
         <!-- Add the image "patricia-frost-125-edited-medium.jpg" right before the opening <ul> tag of the nav. Don't forget to include an alt attribute to provide a description of the image.-->
-        <nav>
+        <nav
+            
+            {
+                list-style: none;
+                position:fixed;
+                
+             }>
             <img src="images/patricia-frost-125-edited-medium.jpg" alt="Portrait of Patricia Frost">
             <ul>
                 <li><a href="letter-markup">Letter Markup</a></li>
@@ -86,7 +92,7 @@
         <article>
                 <!-- Create an article. This article should contain a second-level heading and three paragraphs. -->   
         
-                    <h2>work ethic</h2>
+                    <h2>Work Ethic</h2>
                     <p>Live-edge direct trade kickstarter street art flannel meggings, letterpress wayfarers cardigan dreamcatcher bushwick kitsch franzen slow-carb. Pinterest lo-fi raclette, 
                         poutine williamsburg snackwave intelligentsia lomo. Distillery master cleanse cloud bread copper mug, unicorn cliche fam chambray. Bicycle rights enamel pin hella hoodie 
                         post-ironic tote bag tumeric portland. Microdosing VHS kickstarter art party coloring book health goth. 
@@ -141,8 +147,9 @@
         
             <!-- Using the text "C.E. Truffaut" create an email hyperlink for the email address "ce.truffaut@cwu.edu". --> 
         
-            <p class= "return" > <a href="#top">Back to top </a></p>
-            <p class="Copyright"> & copy; 2020 <a href="ce.truffaut@cwu.edu"> C.E. Truffaut> </a></p>
+            <p class= "return" > <a href="#top"> Back to top </a></p>
+
+            <p style="margin-left:35em"class="Copyright"> &copy; 2020 <a href="mailto:ce.truffaut@cwu.edu"> C.E. Truffaut </a></p>
         </footer>
     </body>
 </html>
