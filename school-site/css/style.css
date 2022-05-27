@@ -82,14 +82,10 @@ header, footer {
 @font-face {
     font-family: 'Josefin Slab';
     src: url('../fonts/josefinslab-regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
 }
 @font-face {
     font-family: 'Montserrat';
     src: url('../fonts/montserrat-regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
 }
 
 
@@ -133,21 +129,22 @@ figcaption {
 
 /* Link Styling */
 
+a:link {
+    color: #33658A;
+}
 
-a {
+a:visited {
+    color: #33658A;
+}
+
+a:focus {
     outline: none;
+    text-decoration: none;
 }
 
-a:link,
-a:visited { outline: none; 
-            color: #33658A
+a:hover {
+    text-decoration: none;
 }
-
-a:focus,
-a:hover {   outline: none;
-            text-decoration: none;
-}
-
 
 
 /* List Styling */
